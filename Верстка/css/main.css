@@ -1,0 +1,221 @@
+body{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+.clearfix:after{
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+header{
+	background: url(../img/first-bg.jpg) no-repeat center top;
+	padding-bottom: 145px;
+}
+
+.container{
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo{
+	margin-top: 41px;
+	float: left; 
+}
+
+nav{
+	float: right;
+	margin-top: 50px;
+}
+
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+
+.menu li a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.titles_first{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+
+h1{
+	font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+
+.button{
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+.title{
+	padding-top: 120px;
+}
+
+.title h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.title p{
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.services{
+	margin-top: 100px;
+}
+
+.services_item{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+
+.sevices_item h3{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.services_item p{
+	font-size: 14px;
+	color: #777777;
+	line-height: 1.55em;
+}
+
+.services_item:last-child{
+	float: right;
+	margin-right: 200px;
+}
+
+.services_item:nth-child(2){
+	margin-left: 65px;
+}
+
+.services_item:nth-child(1){
+	margin-left: 200px;
+}
+
+#services{
+	padding-bottom: 125px;
+}
+
+#portfolio{
+	background: #f7f7f7;
+	padding-bottom: 125px;
+}
+
+.works{
+	margin-top: 100px;
+}
+
+.works img{
+	float: left;
+}
+
+.works img:nth-child(2){
+	margin-left: 29px;
+}
+
+.works img:last-child{
+	float: right;
+}
+
+#about_us{
+	padding-bottom: 25px;
+}
+
+.title {
+	padding-bottom: 25px;
+}
+
+.about img{
+	float: left;
+	padding-left: 200px;
+}
+
+.about_1 p{
+	font-size: 30px;
+	padding-top: 200px;
+	padding-left: 255px;
+}
+
+.about_2 img{
+	padding-left: 450px;
+}
+
+.about_2 p{
+	font-size: 30px;
+	padding-top: 200px;
+	padding-left: 505px;
+}
+
+.about_3 img{
+	padding-left: 700px;
+}
+
+.about_3 p{
+	font-size: 30px;
+	padding-top: 200px;
+	padding-left: 755px;
+}
+
+.about_4 img{
+	padding-left: 1000px;
+}
+
+.about_4 p{
+	font-size: 30px;
+	padding-top: 200px;
+	padding-left: 1050px;
+}
+
+.Phone_numbers p{
+	font-size: 30px;
+	padding-top: 50px;
+	margin-left: 570px;
+}
